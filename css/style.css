@@ -1,0 +1,128 @@
+@charset "utf-8";
+/* CSS Document */
+/* 初始化CSS */
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei UI", "Microsoft YaHei", SimHei, "\5B8B\4F53", simsun, sans-serif;
+	color: #666;
+}
+.carousel-inner img{
+	margin: 0 auto;
+}
+#myCarousel{
+	margin-bottom: 10px;
+}
+.tab1{
+	color: #333333;
+}
+.tab1 ul li i{
+	    float: left;
+	    width: 25px;
+	    height: 25px;
+	    margin-right: 8px;
+	    background-repeat: no-repeat
+	}
+#myctn{
+	margin: auto;
+	text-align: center;
+	padding: 10px 0 10px 0;
+} 
+#myctn h4{
+	font-size: 20px;
+    color: #666;
+    font-weight: 400;
+}
+#myctn span{
+		color: #888;
+}
+#myctn i{
+ display: block;
+ width: 150px;
+ height: 150px;
+ background-image: url(../images/icon.png);
+}
+#mytx{
+	padding: 40px 0 28px 0;
+    text-align: center;
+	background: #F8F8F8;
+}
+#mytx h4{
+line-height: 24px;
+    font-size: 20px;
+    color: #e74f3a;
+}
+#mytx h6{
+line-height: 24px;
+    font-size: 20px;
+    color: #e74f3a;
+}
+#mytx i{
+ display: block;
+ width: 44px;
+ height: 44px;
+ background-image:url(../images/00.png);
+ background-position: -46px -27px;
+}
+#mytx .white{
+padding-top: 15PX;
+background: #FFFFFF;
+}
+/*没有小于768px，是因为Bootstrap3以移动端优先设计*/
+
+/* 小屏幕（平板，大于等于768px） */
+@media (min-width: 768px) {
+	#myctn{
+	margin: auto;
+	text-align: center;
+	padding: 20px 0 15px 0;
+} 
+}
+
+/* 中等屏幕（桌面显示器，大于等于992px） */
+@media (min-width: 992px) {
+	#myctn{
+	margin: auto;
+	text-align: center;
+	padding: 40px 0 30px 0;
+} 
+}
+
+/* 大屏幕（大桌面显示器，大于等于1200px） */
+@media (min-width: 1200px) {
+#myctn{
+	margin: auto;
+	text-align: center;
+	padding: 50px 0 40px 0;
+} 
+	.tab1 {
+    height: 66px;
+    padding: 7px 0;
+    font-size: 14px;
+    color: #333;
+    border-bottom: 1px solid #eaeaea;
+	}
+	.tab1 ul{
+		width: 1100px;
+    	height: 51px;
+   		 margin: 0 auto;
+	}
+	.tab1 ul li{
+		float: left;
+	    width: 178px;
+	    height: 51px;
+	    padding: 13px 0;
+	    border-left: 1px solid #eaeaea;
+	    margin-bottom: 5px;
+	}
+	.tab1 ul li span{
+		float: left;
+    	line-height: 25px
+	}
+	.tab1 ul li i{
+	    float: left;
+	    width: 25px;
+	    height: 25px;
+	    margin-left: 41px;
+	    margin-right: 8px;
+	    background-repeat: no-repeat
+	}
+}
